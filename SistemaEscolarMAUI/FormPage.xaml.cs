@@ -50,6 +50,7 @@ public partial class FormPage : ContentPage
         else
         {
             Debug.WriteLine("Error en la peticion");
+            await DisplayAlert("Error", "Hubo un error, revisa su conexion a internet, recuerda que ningún campo debe estar vacio", "OK");
 
         }
 
