@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemaEscolarMAUI.FormPage"
+             Title="FormPage">
+    <VerticalStackLayout>
+        <Label Text="Nombre:"></Label>
+        <Entry x:Name="EntryNombre"
+               Placeholder="Escribe tu nombre"
+               >
+        </Entry>
+        <Label Text="Apellido:"></Label>
+        <Entry
+            x:Name="EntryApellido"
+            Placeholder="Escribe tu apellido">
+        </Entry>
+        <Label Text="Elige tu sexo"></Label>
+        <RadioButton GroupName ="sexo" Content="H" x:Name="RsexoH"></RadioButton>
+        <RadioButton GroupName ="sexo" Content="M"  x:Name="RsexoM"></RadioButton>
+        <RadioButton GroupName ="sexo" Content="O"  x:Name="RsexoO"></RadioButton>
+        <DatePicker
+            x:Name="fecha"
+            Format="yyyy/MM/dd">
+        </DatePicker>
+        <Picker x:Name="comboBox"
+                Title="Elige una opción">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Alumno</x:String>
+                    <x:String>Maestro</x:String>
+                    <x:String>Administrativo</x:String>
+                    <x:String>Otro</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <Button Text="Crear Usuario" Clicked="Button_Clicked">
+            
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>
