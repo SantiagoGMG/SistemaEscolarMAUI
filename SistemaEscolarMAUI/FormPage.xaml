@@ -15,9 +15,12 @@
             Placeholder="Escribe tu apellido">
         </Entry>
         <Label Text="Elige tu sexo"></Label>
-        <RadioButton GroupName ="sexo" Content="H" x:Name="RsexoH"></RadioButton>
-        <RadioButton GroupName ="sexo" Content="M"  x:Name="RsexoM"></RadioButton>
-        <RadioButton GroupName ="sexo" Content="O"  x:Name="RsexoO"></RadioButton>
+        <HorizontalStackLayout>
+            <RadioButton GroupName ="sexo" Content="H" x:Name="RsexoH"></RadioButton>
+            <RadioButton GroupName ="sexo" Content="M"  x:Name="RsexoM"></RadioButton>
+            <RadioButton GroupName ="sexo" Content="O"  x:Name="RsexoO"></RadioButton>
+        </HorizontalStackLayout>
+
         <DatePicker
             x:Name="fecha"
             Format="yyyy/MM/dd">
@@ -33,8 +36,8 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Button Text="Crear Usuario" Clicked="Button_Clicked">
-            
+        <Button Text="Crear Usuario" Clicked="Button_Clicked" Margin="0,10,0,10">
         </Button>
+        <Button Text="Atras" Clicked="Button_Clicked_1"></Button>
     </VerticalStackLayout>
 </ContentPage>

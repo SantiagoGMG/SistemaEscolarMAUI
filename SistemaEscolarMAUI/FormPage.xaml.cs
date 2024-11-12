@@ -72,4 +72,9 @@ public partial class FormPage : ContentPage
             Debug.WriteLine($"Error: {ex.Message}");
         }
     }
+
+    private async void Button_Clicked_1(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MainPage());
+    }
 }

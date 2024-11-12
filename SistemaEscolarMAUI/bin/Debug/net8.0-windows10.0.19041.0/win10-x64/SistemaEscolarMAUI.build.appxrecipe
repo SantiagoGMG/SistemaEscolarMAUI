@@ -214,6 +214,15 @@
     <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\SistemaEscolarMAUI\SistemaEscolarMAUI\SistemaEscolarMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\SistemaEscolarMAUI\SistemaEscolarMAUI\SistemaEscolarMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ss_crear.scale-100.png">
+      <PackagePath>ss_crear.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\SistemaEscolarMAUI\SistemaEscolarMAUI\SistemaEscolarMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ss_datos.scale-100.png">
+      <PackagePath>ss_datos.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\SistemaEscolarMAUI\SistemaEscolarMAUI\SistemaEscolarMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ss_notificacion.scale-100.png">
+      <PackagePath>ss_notificacion.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\5to_semestre\Programacion_avanzada\2do_parcial\SistemaEscolarMAUI\SistemaEscolarMAUI\SistemaEscolarMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SistemaEscolarMAUI.deps.json">
       <PackagePath>SistemaEscolarMAUI.deps.json</PackagePath>
     </AppxPackagedFile>
